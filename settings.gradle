@@ -1,0 +1,5 @@
+include ':AlaRSCRunner'
+include ':AlaRSCTest'
+include ':RSCApplication2'
+include ':RSCTest'
+rootProject.name='RSCProjects'

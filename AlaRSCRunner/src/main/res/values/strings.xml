@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlatechRSCRunner</string>
+   <string name = "title_speed">步行速度(公尺/秒)</string>
+   <string name = "title_distance">距離(公尺)</string>
+   <string name = "title_cadence">步伐節奏(步數/分鐘)</string>
+   <string name = "title_stride">步伐長度(公尺)</string>
+</resources>

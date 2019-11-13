@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlatechRSCTest</string>
+   <string name = "title_steps">步數(步)</string>
+   <string name = "title_distance">距離(公尺)</string>
+   <string name = "title_calorie">消耗能量(卡路里)</string>
+
+</resources>

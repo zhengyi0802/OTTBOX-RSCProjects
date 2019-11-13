@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <SurfaceView
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">       
+    </SurfaceView>        
+
+    <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:background="#80000000"
+            android:rowCount="4"
+            android:columnCount="2">
+            <TextView
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:text="@string/title_speed"  />
+            <TextView
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textSize="20dp"
+                android:textColor="#FFFFFFFF"
+                android:id="@+id/text_speed"  />
+            <TextView
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:text="@string/title_distance"  />
+			<TextView
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"                
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:id="@+id/text_distance"  />
+			<TextView
+			     android:paddingBottom="16dp"                			    
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:text="@string/title_cadence"  />
+			<TextView
+		        android:paddingBottom="16dp"                			    
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"                
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:id="@+id/text_cadence"  />
+			<TextView
+			     android:paddingBottom="16dp"                			    
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:text="@string/title_stride"  />
+			<TextView
+		        android:paddingBottom="16dp"                			    
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"                
+                android:textColor="#FFFFFFFF"
+                android:textSize="20dp"
+                android:id="@+id/text_stride"  />
+						
+    </GridLayout>
+    
+</RelativeLayout>
